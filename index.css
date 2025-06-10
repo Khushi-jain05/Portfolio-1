@@ -174,10 +174,53 @@ animation-iteration-count: infinite;
     width: 56vw;
     height: 36vw;
     
-   right: 0;
+
     
-    top: 10vh;
+    top:0.1vh
     
+}
+#hero4{
+    height: 100%;
+    width: 70%;
+
+    background-color:#ecaec5cb;
+    filter: blur(20px);
+    border-radius: 50%;
+    animation-name: anime2;
+animation-duration: 3s;
+animation-timing-function: linear;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+    position: absolute;
+}
+#hero5{
+    height: 35vw;
+    width: 35vw;
+    background: linear-gradient(#ecaec5cb, #fc7fa0de);
+    filter: blur(10px);
+    border-radius: 50%;
+    position: absolute;
+    animation-name: anime2;
+animation-duration: 3s;
+animation-timing-function: linear;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+}
+#hero6{
+    /* background: linear-gradient(#c29ba9, #deb5be); */
+    background: linear-gradient(#ecaec5cb, #fc7fa0de);
+
+    height: 35vw;
+    width: 35vw;
+   
+    filter: blur(25px);
+   border-radius: 50%;
+position: absolute;
+animation-name: anime1;
+animation-duration: 3s;
+animation-timing-function: linear;
+animation-direction: alternate;
+animation-iteration-count: infinite;
 }
 @keyframes anime1{
     from{
