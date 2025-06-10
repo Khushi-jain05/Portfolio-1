@@ -169,6 +169,16 @@ animation-timing-function: linear;
 animation-direction: alternate;
 animation-iteration-count: infinite;
 }
+#hero-shape1{
+   position: absolute;
+    width: 56vw;
+    height: 36vw;
+    
+   right: 0;
+    
+    top: 10vh;
+    
+}
 @keyframes anime1{
     from{
         transform: translate(55%,-3%);}
@@ -356,7 +366,7 @@ padding: 0vw 3vw;
     background-position: center;
 }
 #page4{
-height: 60vh;
+height: 70vh;
 width: 100%;
 background-color: rgb(191, 222, 249);
 padding: 10vw 2vw;
@@ -384,12 +394,7 @@ padding: 10vw 2vw;
 font-size: 17vw;
 
     }
-    #footer-div{
-        height: 20vh;
-        width: 100%;
-        background-color:#ec92b3cb ;
-        filter: blur(20px);
-    }
+    
     #footer-bottom{
         border-top: 1px solid #dadada;
         height: 10vh;
@@ -402,9 +407,10 @@ font-size: 17vw;
   
       .swiper-slide {
        
+       font-size: 18px;
        
        padding: 0 2vw;
-        width: 30%;
+        width: 35%;
         
         border-left: 1px solid rgb(145, 143, 143);
       }
